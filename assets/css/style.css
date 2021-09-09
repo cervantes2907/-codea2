@@ -1,0 +1,823 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.container-first{
+    width:100vw;
+}
+/*inicio de  estylos del menu*/
+.one-init{
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 192px;
+    height: 21px;
+    margin-left: 80%;
+    top: 14px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
+
+.logo_nav{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 6rem;
+    margin-top: -43px;
+    position: absolute;
+    height: 172px;
+    width: 316px;
+    border: 5px #ED2560 solid;
+
+}
+
+label{
+    display: none;
+}
+
+nav{
+    height: 65px;
+    width: 100vw;
+    background-color:#ED2560;
+    text-align: right;
+  }
+
+  nav ul{
+     list-style: none;
+     display: inline-block;
+  }
+
+  nav ul li{
+      float: left;
+      margin-top: 20px;
+  }
+
+  nav ul li a {
+      color: white;
+      font-size: 1rem;
+      font-weight: bold;
+      text-decoration: none;
+      margin-right: 4.5rem;
+  }
+
+  nav ul li a:hover{
+    background-color: #929fb3;
+  }
+  /*fin de estylos del menu*/
+
+  /*inicio de estylos de portada*/
+  .title-cover-page{
+    margin-top: 27%;
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.333333334;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    height: 500px;
+  }
+
+.two-columns {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+     background-image:url("../img/imagen-de-portada.jpg");
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    height: 530px;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;   
+}
+
+/* fin de estylos de la portada*/
+
+/*inicio estylos de los servicios*/
+.services{
+
+    width: 100vw;
+    height: 200px;
+}
+.title-services{
+    margin: auto;
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
+
+.services-text{
+    margin: auto;
+    text-align: center;
+    margin-top: 0.8rem;
+    font-size: 1.1rem;
+}
+
+/*fin de estylos de los servicios*/
+ 
+
+
+/* inicio stylos de los card*/
+
+
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+img {
+  margin: auto;
+  margin-left: 21px;
+  margin-top: 21px;
+  height: 270px;
+  width: 304px;
+  max-width: 100vw;
+  vertical-align: middle;
+}
+
+.btn {
+  color: #FFFFFF;
+  font-size: 14px;
+  margin: auto;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-weight: 400;
+  display: block;
+  height: 39px;
+  width: 135px;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgb(219, 200, 200);
+}
+
+.btn:hover {
+  background-color: #ED2560;
+}
+
+
+main{
+  margin: auto;
+  }
+
+.cards {
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.cards_item {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  margin-bottom: 4rem;
+  height: 549px;
+  width: 346px;
+}
+
+
+
+.card {
+  background-color: white;
+  border-radius: 0.25rem;
+  box-shadow: 10px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  display: flex;
+  height: 549px;
+  width: 346px;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_content {
+  margin: auto;
+  height: 549px;
+  width: 346px;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(to bottom left, #FFFFFF);
+}
+
+.card_title {
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  color: #000000;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  text-transform: capitalize;
+}
+
+.card_text {
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  color: #000000;
+  font-size: 0.875rem;
+  height: 120px;
+  width: 346px;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+
+}
+
+.pie-page-content{
+  color: #FFFFFF;
+  display: flex;
+  background-color: #E18;
+  -webkit-column-count: 4; /* Chrome, Safari, Opera */
+  -moz-column-count: 4; /* Firefox */
+  column-count: 4;
+  height: 160px;
+  width: 100vw;
+  list-style: none;
+}
+
+.pie-page-1{ 
+  margin-top: 1rem;
+  margin-left: 6rem;
+  width: 200px;
+  height: 140px;
+
+}
+
+.info h2{
+  margin-top: 1rem;
+  font-size: 2.3rem;
+}
+
+.p1{padding-left: 3rem;
+  font-size: 12px;
+  font-weight: 700
+}
+
+ h6{
+  margin-bottom: 1rem;
+  margin-top: -8px;
+  margin-left: 5.5rem;
+  font-size: 8px;
+}
+
+.pie-page-2{
+  width: 150px;
+  height: 130px;
+  font-size: 1.2rem;
+  margin-top: 2.5rem;
+  font-weight: 700;
+  margin-left: 8rem;
+}
+.contact h3{
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.p2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+.pie-page-3{
+    
+  font-weight: 700;
+  margin-left: 8rem;
+  width: 180px;
+  height: 100px;
+  margin-top: 2.5rem;
+
+}
+
+.politicas h3{
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+
+}
+
+.pie-page-4{
+  font-size: 1.3rem;
+  display: flex; 
+  margin-top: 2rem;
+  margin-left: 5rem;
+}
+
+.pie-page-4 h3{
+  margin-left: 2rem;
+}
+
+.siguenos a img{
+  margin-left: 1rem;
+  height: 60px;
+  width: 60px;
+}
+
+.image-icon{
+  display: flex;
+  margin-top: 1rem;
+
+  text-decoration: none;
+
+}
+
+
+
+
+
+
+@media screen and (max-width:1024px){
+  *{
+    box-sizing: border-box;
+  }
+  
+  .logo_nav{ 
+    position: absolute;
+   margin: 0px;
+   padding: 0px;
+   margin-left: 1rem;
+   margin-top: -40px;
+   position: absolute;
+   height: 150px;
+   width: 250px;
+   border: 3px #ED2560 solid;
+ 
+ }
+ 
+  .two-columns {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    background-image:url("../img/imagen-de-portada.jpg");
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    height: 530px;
+    width: 64rem;
+    background-size: cover;
+    background-position: center;   
+  }
+ 
+ .title-cover-page{
+    margin: auto;
+    margin-top: 37%;
+    margin-left: 7rem;
+ 
+   }
+ 
+ .text{
+   margin-top: 1.5rem;
+   margin-left: 7rem;
+   text-align: center;
+ }
+
+  .one-init{
+    background-color: #FFFFFF;
+    width: 192px;
+    height: 21px;
+    position: absolute;
+    top: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .pie-page-content{
+    color: #FFFFFF;
+    display: flex;
+    background-color: #E18;
+    -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+    list-style-type: none;
+    height: 200px;
+    width: 100vw;
+  }
+
+  .pie-page-1{ 
+    margin-top: 1rem;
+    margin-left: 5rem;
+    width: 200px;
+    height: 140px;
+
+  }
+
+
+
+  .pie-page-1 h6{
+    margin-left: 3.3rem;
+  }
+
+  .p1{
+    padding-left: 0rem;
+    font-size: 14px;
+    font-weight: 700
+  }
+
+  .pie-page-2{
+    width: 150px;
+    height: 130px;
+    font-size: 1.2rem;
+    margin-top: 2.5rem;
+    font-weight: 700;
+    margin-left: 6rem;
+  }
+
+  .contact h3{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .p2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+
+  }
+
+  .pie-page-3{
+    
+    font-weight: 700;
+    margin-left: 6rem;
+    width: 180px;
+    height: 100px;
+    margin-top: 2.5rem;
+
+  }
+
+  .politicas h3{
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+
+  }
+
+  .pie-page-4{
+    width: 100vw;
+    font-size: 1.3rem;
+    margin-left: 6rem;
+
+  }
+
+  .siguenos a img{
+    text-decoration: none;
+    height: 60px;
+    width: 60px;
+  }
+
+ 
+}
+
+
+@media screen and (max-width:900px){
+
+   .container-first{
+   width:56.25rem;
+   }
+  /*inicio de  estylos del menu*/
+
+  .logo_nav{ 
+    position: absolute;
+    margin-top: -3.5rem;
+    height: 80px;
+    width: 150px;
+
+  }
+
+  .one-init{
+    margin-left: 35%;
+  }
+
+  .hamburger{
+    position: absolute;
+    background-color:transparent;
+    left:85%;
+    top:0;
+    height:30px;
+    width:30px;
+    padding:20px 20px;
+    -webkit-transform:translate3d(0, 0, 0);
+    transform:translate3d(0, 0, 0);
+    -webkit-transition:-webkit-transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+    transition:transform 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+    z-index:1002;
+    cursor:pointer;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none
+  }
+  .hamburger.is-active{
+    background-color:none;
+  }
+  ._layer{
+    background:#333333;
+    margin-bottom:4px;
+    border-radius:2px;
+    width:28px;
+    height:4px;
+    opacity:1;
+    -webkit-transform:translate3d(0, 0, 0);
+    transform:translate3d(0, 0, 0);
+    -webkit-transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+    transition:all 0.25s cubic-bezier(0.05, 1.04, 0.72, 0.98);
+  }
+  .hamburger:hover .-top{
+    -webkit-transform:translateY(-100%);
+    -ms-transform:translateY(-100%);
+    transform:translateY(-100%);
+  }
+  .hamburger:hover .-bottom{
+    -webkit-transform:translateY(100%);
+    -ms-transform:translateY(100%);
+    transform:translateY(100%);
+    }
+  .hamburger.is-active .-top{
+    -webkit-transform:translateY(200%) rotate(45deg) !important;
+    -ms-transform:translateY(200%) rotate(45deg) !important;
+    transform:translateY(200%) rotate(45deg) !important;
+  }
+  .hamburger.is-active .-mid{
+    opacity:0;
+  }
+  .hamburger.is-active .-bottom{
+    -webkit-transform:translateY(-200%) rotate(135deg) !important;
+    -ms-transform:translateY(-200%) rotate(135deg) !important;
+    transform:translateY(-200%) rotate(135deg) !important;
+  }
+  
+  .menuppal.is_active{
+    transform: translate3d(0px, 0px, 0px);
+  }
+  .menuppal{
+    background-color: #ED2560;
+    bottom: 0;
+    height: 50%;
+    left: 75%;
+    position: fixed;
+    top: 0;
+    transform: translate3d(0px, -100%, 0px);
+    transition: transform 0.35s cubic-bezier(0.05, 1.04, 0.72, 0.98) 0s;
+    width: 12.5rem;
+    z-index: 1001;
+  }
+  .menuppal ul{
+    margin:0;padding:0;
+  }
+  .menuppal ul li { 
+    list-style: none;
+    text-align:center;
+    font-family: Verdadna, Arial, Helvetica;
+    color:nav-color-text;
+    font-size:1.5rem;
+    color:#FFFFFF;
+    text-transform:none;
+    font-weight:bold;
+  }
+  .menuppal ul li a{
+    margin-top: 1.8rem;
+    text-decoration:none;
+    color:#FFFFFF;
+    margin-left: 4rem;
+  }
+  .menuppal ul li a:hover{
+    text-decoration:none;
+    color:#333;
+    padding: 1rem;
+    border-radius:5px;
+    
+  }
+
+  .two-columns {
+    background-image:url("../img/imagen-de-portada.jpg");
+    height: 530px;
+    width: 56.25rem;
+    background-size: cover;
+    background-position: center; 
+ 
+  }
+
+  .title-cover-page{
+    margin: auto;
+    margin-top: 35%;
+    margin-left: 3.5rem;
+ 
+   }
+ 
+ .text{
+   margin-top: 2rem;
+   margin-left: 3.5rem;
+  }
+
+  .services{
+
+    width: 56.25rem;
+    height: 200px;
+  }
+  
+  .title-services{
+    margin: auto;
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: bold;
+    font-size: 2.4rem;
+  }
+
+
+  .services-text{
+    margin: auto;
+    text-align: center;
+    margin-top: 0.8rem;
+    font-size: 1.1rem;
+  }
+
+  .cards {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 56.25rem;
+    flex-wrap: wrap;
+    list-style: none;
+
+  } 
+
+  .cards_item {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+
+}
+
+@media screen and (max-width:720px){
+  *{
+    margin: 0;
+    padding: 0;
+
+  }
+
+  /*fin de estylos del menu*/
+
+
+
+    main{
+    margin: 0;
+    padding: 0;
+    width: 45rem;
+    }
+
+  .two-columns {
+    margin: 0;
+    padding: 0;
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    background-image:url("../img/imagen-de-portada.jpg");
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+    height: 420px;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;   
+  }
+  .title-cover-page{
+    margin: auto;
+    margin-top: 20%;
+
+  }
+
+    .text{
+    margin-top: 1.5rem;
+    margin-left: auto;
+    text-align: center;
+    }
+    .services{
+     margin: 0;
+    padding: 0;
+    width: 100vw;
+    }
+    .title-services{
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    }
+
+    .services-text{
+    margin: auto;
+    text-align: center;
+    margin-bottom: 1rem;
+    }
+    .cards {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    list-style: none;
+
+    }
+
+  .cards_item {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-left: 20%;
+    margin-bottom: 4rem;
+    height: 549px;
+    width: 346px;
+  }
+
+  .pie-page-content{
+  
+    margin-top: 2rem;
+    list-style: none;
+    color: #FFFFFF;
+    display: flex;
+    height: 400px;
+    width: 45rem;
+    background-color: #E18;
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+  }
+
+  .pie-page-1{ 
+    margin-top: 2rem;
+
+  }
+
+  .info h2{
+    margin-top: 1rem;
+    font-size: 2.3rem;
+  }
+
+  .p1{
+    margin-left: 3rem;
+    font-size: 12px;
+    font-weight: 700
+  }
+
+  .pie-page-1 h6{
+    margin-bottom: 1.5rem;
+    font-size: 8px;
+  }
+
+  .pie-page-2{
+    margin-top: 15rem;
+    margin-left: -10rem;
+    display: block;
+    width: 150px;
+    height: 130px;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .contact h3{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .p2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+
+  }
+
+  .pie-page-3{
+    margin-left: 7rem;
+    display: block;
+    margin-top: 3rem; 
+    font-weight: 700;
+    width: 180px;
+    height: 100px;
+
+  }
+
+  .politicas h3{
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+
+  }
+
+  .pie-page-4{
+
+    margin-top: 15rem;
+    margin-left: -11rem;
+    font-size: 1.3rem;
+    width: 180px;
+    height: 100px;
+    
+  }
+
+  .siguenos a img{ 
+    margin-top: 1rem;
+    display: flex;
+    text-decoration: none;
+    height: 60px;
+    width: 60px;
+  }
+
+}

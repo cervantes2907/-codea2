@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content ="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1,0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+  <div class="container-first">
+    <heder>
+      <section >
+        <div class="one-init"> 1234590 / +57  348 864 2664</div>
+      </section><br><br><br>
+      <section id="inicio">
+        <img class="logo_nav" src="assets/img/logoDepilive.png" alt="">
+        <div class="hamburger">
+          <div class="_layer -top"></div>
+          <div class="_layer -mid"></div>
+          <div class="_layer -bottom"></div>
+        </div>
+        <nav class="menuppal">
+          <ul>
+            <li class="active"><a href="#inicio">inicio</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="#portal">Portal</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+          </ul>
+        </nav>
+      </section>
+    </heder>
+    <main>
+      <section >
+        <div class="two-columns">
+          <div class="content_text">
+             <h2 class="title-cover-page"><font color="#ED2560">Trabajamos</font>para tu <br>
+               Salud y tu <font color="#ED2560">Belleza</font></h2>
+             <p class="text">
+               Lorem ipsum dolor sit amet consectetur<br>
+               adipisicing elit. Vestibulum convallis ultric<br>
+               vehicula. Fusce tortor leo, laoreet id sapi  <br>  
+             </p>
+          </div>
+        </div>
+        <div class="services">
+          <h1 class="title-services"> Nuestros Servicios</h1>
+          <p class="services-text">Conoce nuestros servicios de depilacion laser corporal y facial, fotorejuvenecimiento,
+            limpieza <br> facialy masajes corporales
+          </p>
+        </div>
+     </section>
+     <section id="services">
+         <ul class="cards">
+           <li class="cards_item">
+             <div class="card">
+               <div class="card_image"><img src="assets/img/limpieza-facial-2.jpg">
+               </div>
+               <div class="card_content">
+                 <h2 class="card_title">Lipieza Facial</h2>
+                 <p class="card_text">
+                   Lorem ipsum dolor sit amet consectetur<br>
+                   adipisicing elit. Vestibulum convallis ultric<br>
+                   vehicula. Fusce tortor leo
+                 </p>
+                 <button class="btn">Read More</button>
+               </div>
+             </div>
+           </li>
+            <li class="cards_item">
+             <div class="card">
+               <div class="card_image"><img src="assets/img/rejuvenecimiento-facial.jpg">
+               </div>
+               <div class="card_content">
+                 <h2 class="card_title">Fotorejuvenecimiento Facial</h2>
+                 <p class="card_text">
+                   Lorem ipsum dolor sit amet consectetur<br>
+                   adipisicing elit. Vestibulum convallis ultric<br>
+                   vehicula. Fusce tortor leo
+                 </p>
+                 <button class="btn">Read More</button>
+               </div>
+             </div>
+           </li>
+           <li class="cards_item">
+             <div class="card">
+               <div class="card_image"><img src="assets/img/masaje.jpg"></div>
+               <div class="card_content">
+                 <h2 class="card_title">Masajes Corporales</h2>
+                 <p class="card_text">
+                   Lorem ipsum dolor sit amet consectetur<br>
+                   adipisicing elit. Vestibulum convallis ultric<br>
+                   vehicula. Fusce tortor leo
+                 </p>
+                 <button class="btn">Read More</button>
+               </div>
+             </div>
+           </li> 
+          </ul>
+      </section>
+    </main>  
+    <footer>
+      <section id="nosotros">
+        <ul class="pie-page-content">
+          <li class="pie-page-1">
+              <div class="info">
+                <h2>Depilive</h2>
+                <h6>depilacion y estetica</h6>
+                <span class="p1">Depilive &copy 2021 Todos los</span>
+                <span class="p1"> derechos reservados.</span>
+              </div>
+          </li>
+          <li class="pie-page-2">
+            <div class="contact">
+              <h3>Nosotros</h3>
+              <span class="p2">¿Quienes Somos?</span>
+              <span class="p3">Contactanos</span>
+            </div>
+          </li>
+          <li class="pie-page-3">
+            <div class="politicas">
+              <h3>Politicas</h3>
+              <span class="p4">Terminos y condiciones</span>
+              <span class="p5">Politicas de privacidad</span>
+            </div>
+          </li>
+          <li class="pie-page-4"> 
+          <div class="siguenos">           
+              <h3>siguenos</h3>
+              <div class="image-icon">
+                <a class="button-icon-2" href="https://www.instagram.com/ubaldo2907/?hl=es-la" target="_blank"><img src="assets/icons/icon-instagram.svg"></a>
+                <a class="button-icon-3" href="https://twitter.com/UbaldoCervante7" target="_blank"><img src="assets/icons/icon-twitter.svg"></a>
+              </div>
+            </div>
+          </li>
+        </ul>
+    </section>
+    </footer>
+  </div>
+  <div id="message" style="display:none;">
+    Prueba. Entraste por primera vez 
+  </div>
+  <script>
+    if( !localStorage.getItem('ingress') ){
+
+        //document.getElementById('message').style.display= 'block';
+        alert("Hola primera vez en la página")
+
+        localStorage.setItem('ingress',1); 
+
+    } /*else {
+      document.getElementById('message').style.display= 'none';
+    }*/
+  </script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
